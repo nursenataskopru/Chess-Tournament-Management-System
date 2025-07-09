@@ -1,0 +1,156 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Başlık */
+.moderator-header {
+    text-align: center;
+    color: #28a745;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Tablo */
+.moderator-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 95%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.moderator-table th, 
+.moderator-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.moderator-table th {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+}
+
+.moderator-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.moderator-table tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Düzenle Butonu */
+.btn-edit {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-edit:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+}
+
+/* Silme Butonu */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Geri Dön Linki */
+.moderator-back-link {
+    display: inline-block;
+    margin: 20px auto;
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.moderator-back-link:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .moderator-table {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .moderator-header {
+        font-size: 24px;
+    }
+
+    .moderator-back-link {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+.moderator-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Butonlar arasındaki boşluk */
+}
+
+/* Düzenle Butonu */
+.btn-edit {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-edit:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+}
+
+/* Silme Butonu */
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}

@@ -1,0 +1,54 @@
+/* Genel Gövde Stili */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Başlık */
+header h1 {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Hoşgeldiniz Mesajı */
+main p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* Menü Listesi */
+ul.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Menü Öğeleri */
+ul.menu li {
+    margin: 10px 0;
+}
+
+/* Menü Linkleri */
+ul.menu li a {
+    display: block;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ul.menu li a:hover {
+    background-color: #218838;
+}
